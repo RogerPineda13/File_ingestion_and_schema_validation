@@ -1,0 +1,69 @@
+file_type: csv
+dataset_name: file
+file_name: Combined_Flights_2021
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - FlightDate
+    - Airline
+    - Origin
+    - Dest
+    - Cancelled
+    - Diverted
+    - CRSDepTime
+    - DepTime
+    - DepDelayMinutes
+    - DepDelay
+    - ArrTime
+    - ArrDelayMinutes
+    - AirTime
+    - CRSElapsedTime
+    - ActualElapsedTime
+    - Distance
+    - Year
+    - Quarter
+    - Month
+    - DayofMonth
+    - DayOfWeek
+    - MarketingAirlineNetwork
+    - OperatedorBrandedCodeSharePartners
+    - DOTIDMarketingAirline
+    - IATACodeMarketingAirline
+    - FlightNumberMarketingAirline
+    - OperatingAirline
+    - DOTIDOperatingAirline
+    - IATACodeOperatingAirline
+    - TailNumber
+    - FlightNumberOperatingAirline
+    - OriginAirportID
+    - OriginAirportSeqID
+    - OriginCityMarketID
+    - OriginCityName
+    - OriginState
+    - OriginStateFips
+    - OriginStateName
+    - OriginWac
+    - DestAirportID
+    - DestAirportSeqID
+    - DestCityMarketID
+    - DestCityName
+    - DestState
+    - DestStateFips
+    - DestStateName
+    - DestWac
+    - DepDel15
+    - DepartureDelayGroups
+    - DepTimeBlk
+    - TaxiOut
+    - WheelsOff
+    - WheelsOn
+    - TaxiIn
+    - CRSArrTime
+    - ArrDelay
+    - ArrDel15
+    - ArrivalDelayGroups
+    - ArrTimeBlk
+    - DistanceGroup
+    - DivAirportLandings
